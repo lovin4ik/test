@@ -13,8 +13,8 @@ jobs:
 
       - name: Install and build 🔧
         run: |
-          npm install
-          npm run build
+          bun install
+          bun run build
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
