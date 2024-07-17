@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Portfolio | WebStudio</title>
+		<link
+			rel="stylesheet"
+			href="../scss/main.min.css"
+		/>
+
+		<link
+			href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+			rel="stylesheet"
+		/>
+
+		<script
+			type="module"
+			src="../js/burgerMenu.js"
+			defer
+		></script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<nav>
+					<a
+						href="../webstudio.html"
+						class="header__logo"
+						><span>Web</span>Studio</a
+					>
+					<ul class="header__nav">
+						<li>
+							<a
+								href="../webstudio.html"
+								class="header__nav__link"
+								>Студія</a
+							>
+						</li>
+						<li>
+							<a
+								href="../webstudio.html"
+								class="header__nav__link active"
+								>Портфоліо</a
+							>
+						</li>
+						<li>
+							<a
+								href="../webstudio.html"
+								class="header__nav__link"
+								>Контакти</a
+							>
+						</li>
+					</ul>
+				</nav>
+
+				<i class="bx bx-menu header__burger"></i>
+
+				<ul class="header__contacts">
+					<li>
+						<a
+							href="mailto:info@devstudio.com"
+							class="header__contacts__link"
+						>
+							<svg
+								class="icon"
+								width="14px"
+								height="10px"
+							>
+								<use xlink:href="../assets/sprite.svg#email"></use>
+							</svg>
+							info@devstudio.com
+						</a>
+					</li>
+					<li>
+						<a
+							href="tel:+380961111111"
+							class="header__contacts__link"
+						>
+							<svg
+								class="icon"
+								width="10px"
+								height="16px"
+							>
+								<use xlink:href="../assets/sprite.svg#phone"></use>
+							</svg>
+							+38 096 111 11 11
+						</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+
+		<main>
+			<section class="portfolio">
+				<div class="container">
+					<div class="portfolio__filter">
+						<button class="portfolio__filter__btn">Усі</button>
+						<button class="portfolio__filter__btn">Веб-сайти</button>
+						<button class="portfolio__filter__btn">Додатки</button>
+						<button class="portfolio__filter__btn">Дизайн</button>
+						<button class="portfolio__filter__btn">Маркетинг</button>
+					</div>
+
+					<ul class="portfolio__list">
+						<li class="portfolio__list__item">
+							<a
+								href="../webstudio.html"
+								class="portfolio__list__link"
+							>
+								<img
+									src="../assets/portfolio/sm/tehnohryak-sm.png"
+									alt="Технокряк"
+									class="portfolio__list__img"
+									srcset="
+										../assets/portfolio/tehnoxrak.png        768w,
+										../assets/portfolio/sm/tehnohryak-sm.png 767w
+									"
+								/>
+								<div class="portfolio__list__description">
+									<h3 class="portfolio__list__title">Технокряк</h3>
+									<p class="portfolio__list__text">Веб-сайт</p>
+								</div>
+							</a>
+						</li>
+						<li class="portfolio__list__item">
+							<a
+								href="../webstudio.html"
+								class="portfolio__list__link"
+							>
+								<img
+									src="../assets/portfolio/newOrlean.png"
+									alt="Технокряк"
+									class="portfolio__list__img"
+									srcset="
+										../assets/portfolio/newOrlean           768w,
+										../assets/portfolio/sm/newOrlean-sm.png 767w
+									"
+								/>
+								<div class="portfolio__list__description">
+									<h3 class="portfolio__list__title">
+										Постер New Orlean vs Golden Star
+									</h3>
+									<p class="portfolio__list__text">Дизайн</p>
+								</div>
+							</a>
+						</li>
+						<li class="portfolio__list__item">
+							<a
+								href="../webstudio.html"
+								class="portfolio__list__link"
+							>
+								<img
+									src="../assets/portfolio/seafood.png"
+									alt="Технокряк"
+									class="portfolio__list__img"
+									srcset="
+										../assets/portfolio/seafood.png       768w,
+										../assets/portfolio/sm/seafood-sm.png 767w
+									"
+								/>
+								<div class="portfolio__list__description">
+									<h3 class="portfolio__list__title">Ресторан Seafood</h3>
+									<p class="portfolio__list__text">Додаток</p>
+								</div>
+							</a>
+						</li>
+						<li class="portfolio__list__item">
+							<a
+								href="../webstudio.html"
+								class="portfolio__list__link"
+							>
+								<img
+									src="../assets/portfolio/prime.png"
+									alt="Технокряк"
+									class="portfolio__list__img"
+									srcset="
+										../assets/portfolio/prime.png       768w,
+										../assets/portfolio/sm/prime-sm.png 767w
+									"
+								/>
+								<div class="portfolio__list__description">
+									<h3 class="portfolio__list__title">Проєкт Prime</h3>
+									<p class="portfolio__list__text">Маркетинг</p>
+								</div>
+							</a>
+						</li>
+						<li class="portfolio__list__item">
+							<a
+								href="../webstudio.html"
+								class="portfolio__list__link"
+							>
+								<img
+									src="../assets/portfolio/boxes.png"
+									alt="Технокряк"
+									class="portfolio__list__img"
+									srcset="
+										../assets/portfolio/boxes.png       768w,
+										../assets/portfolio/sm/boxes-sm.png 767w
+									"
+								/>
+								<div class="portfolio__list__description">
+									<h3 class="portfolio__list__title">Проєкт Boxes</h3>
+									<p class="portfolio__list__text">Додаток</p>
+								</div>
+							</a>
+						</li>
+						<li class="portfolio__list__item">
+							<a
+								href="../webstudio.html"
+								class="portfolio__list__link"
+							>
+								<img
+									src="../assets/portfolio/inspiration.png"
+									alt="Технокряк"
+									class="portfolio__list__img"
+									srcset="
+										../assets/portfolio/inspiration.png       768w,
+										../assets/portfolio/sm/inspiration-sm.png 767w
+									"
+								/>
+								<div class="portfolio__list__description">
+									<h3 class="portfolio__list__title">
+										Inspiration has no Borders
+									</h3>
+									<p class="portfolio__list__text">Веб-сайт</p>
+								</div>
+							</a>
+						</li>
+						<li class="portfolio__list__item">
+							<a
+								href="../webstudio.html"
+								class="portfolio__list__link"
+							>
+								<img
+									src="../assets/portfolio/limitedEd.png"
+									alt="Технокряк"
+									class="portfolio__list__img"
+									srcset="
+										../assets/portfolio/limitedEd.png       768w,
+										../assets/portfolio/sm/limitedEd-sm.png 767w
+									"
+								/>
+								<div class="portfolio__list__description">
+									<h3 class="portfolio__list__title">
+										Видання Limited Edition
+									</h3>
+									<p class="portfolio__list__text">Дизайн</p>
+								</div>
+							</a>
+						</li>
+						<li class="portfolio__list__item">
+							<a
+								href="../webstudio.html"
+								class="portfolio__list__link"
+							>
+								<img
+									src="../assets/portfolio/LAB.png"
+									alt="Технокряк"
+									class="portfolio__list__img"
+									srcset="
+										../assets/portfolio/LAB.png       768w,
+										../assets/portfolio/sm/LAB-sm.png 767w
+									"
+								/>
+								<div class="portfolio__list__description">
+									<h3 class="portfolio__list__title">Проєкт LAB</h3>
+									<p class="portfolio__list__text">Маркетинг</p>
+								</div>
+							</a>
+						</li>
+						<li class="portfolio__list__item">
+							<a
+								href="../webstudio.html"
+								class="portfolio__list__link"
+							>
+								<img
+									src="../assets/portfolio/growing.png"
+									alt="Технокряк"
+									class="portfolio__list__img"
+									srcset="
+										../assets/portfolio/growing.png       768w,
+										../assets/portfolio/sm/growing-sm.png 767w
+									"
+								/>
+								<div class="portfolio__list__description">
+									<h3 class="portfolio__list__title">Growing Business</h3>
+									<p class="portfolio__list__text">Додаток</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<address class="footer__address">
+					<a
+						href="../webstudio.html"
+						class="footer__logo"
+					>
+						Web<span class="footer__logo--white">Studio</span>
+					</a>
+					<ul class="footer__list">
+						<li>
+							<a
+								href="../webstudio.html"
+								class="footer__list__link white"
+							>
+								м. Київ, пр-т Лесі Українки, 26
+							</a>
+						</li>
+						<li>
+							<a
+								href="mailto:info@devstudio.com"
+								class="footer__list__link"
+							>
+								info@devstudio.com
+							</a>
+						</li>
+						<li>
+							<a
+								href="tel:+380961111111"
+								class="footer__list__link"
+							>
+								+38 096 111 11 11
+							</a>
+						</li>
+					</ul>
+				</address>
+
+				<div class="footer__social">
+					<p class="footer__social__title">Приєднуйтесь</p>
+					<ul class="footer__social__list">
+						<li>
+							<a
+								href="../webstudio.html"
+								class="footer__social__link"
+								><i class="bx bxl-instagram"></i
+							></a>
+						</li>
+						<li>
+							<a
+								href="../webstudio.html"
+								class="footer__social__link"
+								><i class="bx bxl-twitter"></i
+							></a>
+						</li>
+						<li>
+							<a
+								href="../webstudio.html"
+								class="footer__social__link"
+								><i class="bx bxl-facebook"></i
+							></a>
+						</li>
+						<li>
+							<a
+								href="../webstudio.html"
+								class="footer__social__link"
+								><i class="bx bxl-linkedin"></i
+							></a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__subscribe">
+					<h3 class="footer__subscribe__title">Підпишіться на розсилку</h3>
+					<form
+						class="footer__subscribe__form"
+						action="#"
+						method="post"
+					>
+						<input
+							class="footer__subscribe__input"
+							type="email"
+							name="email"
+							placeholder="E-mail"
+						/>
+						<button
+							class="footer__subscribe__button"
+							type="submit"
+						>
+							Підписатися
+							<svg
+								class="icon"
+								width="24px"
+								height="24px"
+							>
+								<use xlink:href="../assets/sprite.svg#tg"></use>
+							</svg>
+						</button>
+					</form>
+				</div>
+			</div>
+		</footer>
+		<div class="burger__menu is-hidden">
+			<button class="burger__menu__close">
+				<svg
+					class="icon"
+					width="18px"
+					height="18px"
+				>
+					<use xlink:href="../assets/sprite.svg#close"></use>
+				</svg>
+			</button>
+			<ul class="burger__menu__list">
+				<li class="burger__menu__item">
+					<a
+						href="../webstudio.html"
+						class="burger__menu__link"
+						>Студія</a
+					>
+				</li>
+				<li class="burger__menu__item">
+					<a
+						href="./portfolio.html"
+						class="burger__menu__link"
+						>Портфоліо</a
+					>
+				</li>
+				<li class="burger__menu__item">
+					<a
+						href="../webstudio.html"
+						class="burger__menu__link"
+						>Контакти</a
+					>
+				</li>
+			</ul>
+			<ul class="burger__menu__contacts">
+				<li class="burger__menu__contact">
+					<a
+						href="tel:+380961111111"
+						class="burger__menu__link"
+						>+38 096 111 11 11</a
+					>
+				</li>
+				<li class="burger__menu__contact">
+					<a
+						href="mailto:info@devstudio.com"
+						class="burger__menu__link"
+						>info@devstudio.com</a
+					>
+				</li>
+			</ul>
+			<ul class="burger__menu__socials">
+				<li class="burger__menu__social">
+					<a
+						href="../webstudio.html"
+						class="burger__menu__link"
+						>Instagram</a
+					>
+				</li>
+				<li class="burger__menu__social">
+					<a
+						href="../webstudio.html"
+						class="burger__menu__link"
+						>Twitter</a
+					>
+				</li>
+				<li class="burger__menu__social">
+					<a
+						href="../webstudio.html"
+						class="burger__menu__link"
+						>Facebook</a
+					>
+				</li>
+				<li class="burger__menu__social">
+					<a
+						href="../webstudio.html"
+						class="burger__menu__link"
+						>LinkedIn</a
+					>
+				</li>
+			</ul>
+		</div>
+	</body>
+</html>
