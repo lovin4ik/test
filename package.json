@@ -1,0 +1,24 @@
+{
+	"name": "test-routing",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"homepage": "https://lovin4ik.github.io/test",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build --base=/test/",
+		"preview": "vite preview",
+		"predeploy": "vite build",
+		"deploy": "gh-pages -d dist"
+	},
+	"devDependencies": {
+		"eslint": "^9.29.0",
+		"typescript": "~5.8.3",
+		"vite": "^6.3.5"
+	},
+	"dependencies": {
+		"@tailwindcss/vite": "^4.1.10",
+		"gh-pages": "^6.3.0",
+		"tailwindcss": "^4.1.10"
+	}
+}
